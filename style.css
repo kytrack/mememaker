@@ -1,0 +1,30 @@
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+#kep{
+    max-width: 100%;
+    max-height: 700px;
+    border: 2px solid black;
+    height: auto; /* Ez biztosítja, hogy a kép arányosan változzon */
+    width: 100%; /* Az arányos méretezés miatt */
+} 
+button{
+    margin-left: 20px;
+}
+.meme {
+    font-family: 'Impact', sans-serif; /* Válassz egy meme szerű betűtípust (például Impact) */
+    font-size: 24px; /* Beállítjuk a betűméretet */
+    color: white; /* Fehér szöveg */
+    text-align: center; /* Középre igazítjuk a szöveget */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-transform: uppercase;
+}
+
+
+
+
